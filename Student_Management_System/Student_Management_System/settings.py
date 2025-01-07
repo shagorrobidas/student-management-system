@@ -79,6 +79,18 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'student_management_db',        # Your database name
+    #     'USER': 'admin',             # Your MySQL username
+    #     'PASSWORD': '',     # Your MySQL password
+    #     'HOST': '127.0.0.1',           # Use 'localhost' or the server's IP
+    #     'PORT': '3306',                # Default MySQL port
+    #     'OPTIONS': {
+    #         'sql_mode': 'traditional', # Optional: recommended for strict SQL mode
+    #     },
+    # }
+
 }
 
 
